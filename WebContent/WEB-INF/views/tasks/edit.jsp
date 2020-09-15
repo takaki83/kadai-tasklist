@@ -19,7 +19,6 @@
             action="${pageContext.request.contextPath}/destroy">
             <input type="hidden" name="_token" value="${_token}" />
         </form>
-
         <script>
         function confirmDestroy() {
             if(confirm("本当に削除してよろしいですか？")) {
@@ -27,6 +26,5 @@
             }
         }
         </script>
-
     </c:param>
 </c:import>
